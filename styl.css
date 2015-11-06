@@ -13,6 +13,12 @@ lewy {
 
 }
 
+head {
+	max-width: 1500px;
+	font-family: 'Play', sans-serif;
+}
+
+
 body {
 	font-family: 'Play', sans-serif;
 	margin: 0px auto;
