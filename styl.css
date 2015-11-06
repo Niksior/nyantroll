@@ -8,16 +8,11 @@ header {
 
 lewy {
 	font-family: 'Press Start 2P', cursive;
-
+	max-width: 50px;
+	max-height: 50px;
 	position: left;
-
+	position: fixed;
 }
-
-head {
-	max-width: 1500px;
-	font-family: 'Play', sans-serif;
-}
-
 
 body {
 	font-family: 'Play', sans-serif;
