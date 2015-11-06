@@ -8,8 +8,9 @@ header {
 
 lewy {
 	font-family: 'Press Start 2P', cursive;
-	position: left;
 	position: fixed;
+	top: 50px;
+	left: -120px; 
 }
 
 body {
