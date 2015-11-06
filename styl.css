@@ -1,7 +1,7 @@
 header {
 	font-family: 'Press Start 2P', cursive;
 	background-color: #009688;
-
+	display: block;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -9,7 +9,6 @@ header {
 lewy {
 	font-family: 'Press Start 2P', cursive;
 	background-color: #e2e2e2;
-	display: block;
 	position: left-top;
 	position: fixed;
 }
