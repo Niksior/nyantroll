@@ -1,2 +1,0 @@
-# Kitsunebu
-Nowa strona sklepu
