@@ -4,13 +4,13 @@ header {
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
-}
+} 
 
 lewy {
 	font-family: 'Press Start 2P', cursive;
-	background-color: #e2e2e2;
-	position: left-top;
-	position: fixed;
+
+	position: left;
+
 }
 
 body {
