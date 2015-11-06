@@ -8,8 +8,6 @@ header {
 
 lewy {
 	font-family: 'Press Start 2P', cursive;
-	max-width: 50px;
-	max-height: 50px;
 	position: left;
 	position: fixed;
 }
