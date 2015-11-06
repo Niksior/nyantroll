@@ -1,5 +1,13 @@
+header {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #009688;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+}
+
 body {
-	font-family: 'Francois One', sans-serif;
+	font-family: 'Play', sans-serif;
 	margin: 0px auto;
 	max-width: 1000px;
 	background-color: #e2e2e2;
@@ -7,23 +15,15 @@ body {
 	position: center center;
 }
 
-header {
-	font-family: 'Francois One', sans-serif;
-	background-color: #009688;
-	display: block;
-	color: #FFFFFF;
-	text-align: center;
-}
-
 a:link, a:visited{
-	font-family: 'Francois One', sans-serif;	
+	font-family: 'Play', sans-serif;	
 	text-decoration: none;
 	font-weight: bold;
 	color: #000000;
 }
 
 a:hover {
-	font-family: 'Francois One', sans-serif;	
+	font-family: 'Play', sans-serif;
 	color: #000000;
 	background-color: #F47D31;
 	text-decoration: none;
