@@ -9,8 +9,8 @@ header {
 lewy {
 	font-family: 'Press Start 2P', cursive;
 	position: fixed;
-	top: 50px;
-	left: -120px; 
+	top: 0px;
+	left: 0px; 
 }
 
 body {
