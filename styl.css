@@ -6,6 +6,14 @@ header {
 	text-align: center;
 }
 
+lewy {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #e2e2e2;
+	display: block;
+	position: left-top;
+	position: fixed;
+}
+
 body {
 	font-family: 'Play', sans-serif;
 	margin: 0px auto;
