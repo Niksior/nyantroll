@@ -31,12 +31,12 @@ a:hover {
 	text-decoration: none;
 }
 
-#menuButton1 { 
+/*#menuButton1 { 
 	float:left; 
 	margin:15px 0px 0px 20px; 
 	padding: 10px;
 	background-color: none;
-}
+}*/
 
 #menu {
 	position: absolute;
@@ -48,7 +48,7 @@ a:hover {
 	transform-origin: 0% 0%;
 	transform: perspective(0px) rotateY(90deg);
 	transition: transform .3s linear 0s;
-	box-shadow: 20px 20px 20px #FFCCBC;
+	box-shadow: 20px 10px 20px #FFCCBC;
 	border-style: groove;
 	border-width: 0px 1px 0px 0px;
 	border-color: #FFCCBC; 
@@ -58,9 +58,33 @@ a:hover {
 	display: block;
 	text-decoration: none;
 	color: #FBE9E7;
-	background:#DD2C00;
-	margin: 1px;
-	font-size: 13px;
+	font-size: auto;
 	transition: background 0.2s linear 0s, color 0.2s linear 0s;
 }
-#menu > a:hover { background:#888; color:#FFF; }
+#menu > a:hover { 
+	background:#888;
+	color:#FFF;
+}
+
+#menuButton1 {
+	background-color:#e64919;
+	-moz-border-radius:38px;
+	-webkit-border-radius:38px;
+	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:31px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #161066;
+	float: middle;
+	border-width: 1px 1px 1px 1px;
+}
+#menuButton1:hover {
+	background-color:#bf360c;
+}
+#menuButton1:active {
+	position:relative;
+	top:1px;
+}
