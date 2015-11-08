@@ -8,3 +8,16 @@ WebFontConfig = {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
 })();
+
+
+function tgMenu(menu){
+	var menu = document.getElementById(menu);
+	if(menu.dataset.opened == "no"){
+	    menu.style.transform = "perspective(0px) rotateY(0deg)";
+		menu.dataset.opened = "yes";
+		return false;
+	} else {
+		menu.style.transform = "perspective(0px) rotateY(90deg)";
+		menu.dataset.opened = "no";
+	}
+}

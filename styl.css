@@ -7,16 +7,14 @@ body {
 	text-align: center;
 }
 
-header {
-	
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e00003+23,d8801c+100&amp;0.9+0,0.9+100 */
-		background-color: #FF5722;
-
+#topbar {
+	background-color: #FF5722;
 	font-family: 'Press Start 2P', cursive;
 	color: #00ffe9;
-	min-height: 100px;
+	height: 100px;
 	font-size: 100px;
 } 
+
 
 a:link, a:visited{
 	text-decoration: none;
@@ -29,3 +27,34 @@ a:hover {
 	background-color: #db923a;
 	text-decoration: none;
 }
+
+#menuButton1 { 
+	float:left; 
+	margin:15px 0px 0px 20px; 
+	padding: 10px;
+	background-color: none;
+}
+
+#menu {
+	position: absolute;
+	left: 0px;
+	background: #FF7043;
+	width: 140px;
+	height: 100%;
+	padding: 5px 5px 5px;
+	transform-origin: 0% 0%;
+	transform: perspective(0px) rotateY(90deg);
+	transition: transform .3s linear .1s;
+	box-shadow: 20px 20px 20px #FFCCBC;
+}
+
+#menu > a {
+	display: block;
+	text-decoration: none;
+	color: #FBE9E7;
+	background:#DD2C00;
+	margin: 1px;
+	font-size: 13px;
+	transition: background 0.2s linear 0s, color 0.2s linear 0s;
+}
+#menu > a:hover { background:#888; color:#FFF; }
