@@ -1,14 +1,14 @@
 body {
 	font-family: 'Play', sans-serif;
 	margin: 0px auto;
-	background-color: #FBE9E7;
+	background: #FBE9E7;
 	background-position: center center;
 	position: center center;
 	text-align: center;
 }
 
 #topbar {
-	background-color: #FF5722;
+	background: #FF5722;
 	font-family: 'Press Start 2P', cursive;
 	color: #00ffe9;
 	height: 100px;
@@ -46,7 +46,6 @@ a:hover {
 	transform: perspective(0px) rotateY(90deg);
 	transition: transform .3s linear 0s;
 	box-shadow: 20px 20px 20px #FFCCBC;
-	
 }
 
 #menu > a {

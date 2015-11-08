@@ -21,3 +21,23 @@ function tgMenu(menu){
 		menu.dataset.opened = "no";
 	}
 }
+
+	var a=1;
+	
+function bgclr(bg, tb, mn){
+	var bg = document.getElementById(bg);
+	var tb = document.getElementById(tb);
+	var mn = document.getElementById(mn);
+	if(a==1){
+		bg.style.background = "#FF7043"
+		tb.style.background = "#BF360C"
+		mn.style.background = "#FFCCBC"
+		a=0;
+	}
+	else{
+		bg.style.background = "#FBE9E7"
+		tb.style.background = "#FF5722"
+		mn.style.background = "#FF7043"
+		a=1
+	}
+}
