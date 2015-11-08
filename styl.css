@@ -13,6 +13,9 @@ body {
 	color: #00ffe9;
 	height: 100px;
 	font-size: 100px;
+	border-style: inset;
+	border-width: 0px 0px 1px 0px;
+	border-color: #9E9E9E; 
 } 
 
 
@@ -38,7 +41,7 @@ a:hover {
 #menu {
 	position: absolute;
 	left: 0px;
-	background: #FF7043;
+	background: #FF8A65;
 	width: 140px;
 	height: 100%;
 	padding: 5px 5px 5px;
@@ -46,6 +49,9 @@ a:hover {
 	transform: perspective(0px) rotateY(90deg);
 	transition: transform .3s linear 0s;
 	box-shadow: 20px 20px 20px #FFCCBC;
+	border-style: groove;
+	border-width: 0px 1px 0px 0px;
+	border-color: #FFCCBC; 
 }
 
 #menu > a {
