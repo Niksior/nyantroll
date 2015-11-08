@@ -44,8 +44,9 @@ a:hover {
 	padding: 5px 5px 5px;
 	transform-origin: 0% 0%;
 	transform: perspective(0px) rotateY(90deg);
-	transition: transform .3s linear .1s;
+	transition: transform .3s linear 0s;
 	box-shadow: 20px 20px 20px #FFCCBC;
+	
 }
 
 #menu > a {
