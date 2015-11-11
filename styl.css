@@ -10,14 +10,33 @@ body {
 #topbar {
 	background: #FF5722;
 	font-family: 'Press Start 2P', cursive;
-	color: #00ffe9;
 	height: 100px;
 	font-size: 100px;
 	border-style: inset;
 	border-width: 0px 0px 1px 0px;
-	border-color: #9E9E9E; 
+	border-color: #9E9E9E;
+	text-transform: uppercase;
 } 
 
+#topbar > a {
+	text-align: center;
+	font-size: 30px;
+	color: #536DFE;
+	transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+
+#topbar > a:hover {
+	background-color: #9575CD;
+	color: #E64A19;
+	text-decoration: none;
+	transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+
+#topbar > a:active {
+	background-color: white;
+	color: white;
+	transition: background 0.s linera 0s, color 0.2s linear 0s; 
+}
 
 a:link, a:visited{
 	text-decoration: none;
