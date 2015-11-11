@@ -22,21 +22,22 @@ body > div {
 }
 
 body > div > header {
-	padding: 20px;
 	background: #F50057;
 	font-family: 'Press Start 2P', cursive;
 	height: 100px;
+	padding: 30px;
+	font-size: 30px;
 	border-style: inset;
 	border-width: 0px 0px 1px 0px;
 	border-color: #9E9E9E;
 	text-transform: uppercase;
 	position: fixed;
 	width: 100%;
+	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
 } 
 
 body > div > header > a {
 	text-align: center;
-	font-size: 30px;
 	color: #FFFFFF;
 	text-decoration: none;
 	transition: color 0.4s linear 0s;
@@ -55,24 +56,21 @@ body > div > header > a:active {
 	text-decoration: none;
 }
 
-body > div > footer {
-	order: 1;
-	flex: 0 1 100%;
-	min-height: 141px;
+body > div > nav, main, aside {
+	padding-top: 200px;
 }
-
 body > div > nav {
-	order: 2;
+	order: 1;
 	flex: 0 1 10%;
 }
 
 body > div > main {
-	order: 3;
+	order: 2;
 	flex: 1 0 75%;
-	padding: 20px;
+	text-align: center;
 }
 
 body > div > aside {
-	order: 4;
+	order: 3;
 	flex: 0 1 10%;
 }
