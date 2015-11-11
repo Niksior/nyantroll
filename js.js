@@ -13,37 +13,3 @@ WebFontConfig = {
     s.parentNode.insertBefore(wf, s);
 })();
 
-
-function tgMenu(menu){
-	var menu = document.getElementById(menu);
-	if(menu.dataset.opened == "no"){
-	    menu.style.transform = "perspective(0px) rotateY(0deg)";
-	    menu.style.transform = "perspective(0px) rotateY(0deg)";
-		menu.dataset.opened = "yes";
-		return false;
-	} else {
-		menu.style.transform = "perspective(0px) rotateY(90deg)";
-		menu.style.transform = "perspective(0px) rotateY(90deg)";
-		menu.dataset.opened = "no";
-	}
-}
-
-var a=1;
-
-function bgclr(bg, tb, mn){
-	var bg = document.getElementById(bg);
-	var tb = document.getElementById(tb);
-	var mn = document.getElementById(mn);
-	if(a==1){
-		bg.style.background = "#EDE7F6";
-		tb.style.background = "#673AB7";
-		mn.style.background = "#9575CD";
-		a=0;
-	}
-	else{
-		bg.style.background = "#FBE9E7";
-		tb.style.background = "#FF5722";
-		mn.style.background = "#FF7043";
-		a=1;
-	}
-}

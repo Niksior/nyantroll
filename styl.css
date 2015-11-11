@@ -5,105 +5,74 @@ body {
 	background-position: center center;
 	position: center center;
 	text-align: center;
+	background-image: url("lis.png");
+    background-repeat: no-repeat;
+    background-position: 100% 150px;
+    background-attachment: fixed;
 }
 
-#topbar {
-	background: #FF5722;
+body > div {
+	margin: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	min-width: 800px;
+	justify-content: flex-center;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+body > div > header {
+	padding: 20px;
+	background: #F50057;
 	font-family: 'Press Start 2P', cursive;
 	height: 100px;
-	font-size: 100px;
 	border-style: inset;
 	border-width: 0px 0px 1px 0px;
 	border-color: #9E9E9E;
 	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
 } 
 
-#topbar > a {
+body > div > header > a {
 	text-align: center;
 	font-size: 30px;
-	color: #536DFE;
-	transition: background 0.4s linear 0s, color 0.4s linear 0s;
-}
-
-#topbar > a:hover {
-	background-color: #9575CD;
-	color: #E64A19;
+	color: #FFFFFF;
 	text-decoration: none;
-	transition: background 0.4s linear 0s, color 0.4s linear 0s;
+	transition: color 0.4s linear 0s;
+	letter-spacing: -1px;
 }
 
-#topbar > a:active {
-	background-color: white;
+body > div > header > a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	transition: color 0.4s linear 0s;
+}
+
+body > div > header > a:active {
 	color: white;
-	transition: background 0.s linera 0s, color 0.2s linear 0s; 
-}
-
-a:link, a:visited{
-	text-decoration: none;
-	font-weight: bold;
-	color: #000000;
-}
-
-a:hover {
-	color: #000000;
-	background-color: #db923a;
+	transition: color 0.2s linear 0s; 
 	text-decoration: none;
 }
 
-/*#menuButton1 { 
-	float:left; 
-	margin:15px 0px 0px 20px; 
-	padding: 10px;
-	background-color: none;
-}*/
-
-#menu {
-	position: absolute;
-	left: 0px;
-	background: #FF8A65;
-	width: 140px;
-	height: 100%;
-	padding: 5px 5px 5px;
-	transform-origin: 0% 0%;
-	transform: perspective(0px) rotateY(90deg);
-	transition: transform .3s linear 0s;
-	box-shadow: 20px 10px 20px #FFCCBC;
-	border-style: groove;
-	border-width: 0px 1px 0px 0px;
-	border-color: #FFCCBC; 
+body > div > footer {
+	order: 1;
+	flex: 0 1 100%;
+	min-height: 141px;
 }
 
-#menu > a {
-	display: block;
-	text-decoration: none;
-	color: #FBE9E7;
-	font-size: auto;
-	transition: background 0.2s linear 0s, color 0.2s linear 0s;
-}
-#menu > a:hover { 
-	background:#888;
-	color:#FFF;
+body > div > nav {
+	order: 2;
+	flex: 0 1 10%;
 }
 
-#menuButton1 {
-	background-color:#e64919;
-	-moz-border-radius:38px;
-	-webkit-border-radius:38px;
-	border-radius:38px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:17px;
-	padding:31px 25px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #161066;
-	float: middle;
-	border-width: 1px 1px 1px 1px;
+body > div > main {
+	order: 3;
+	flex: 1 0 75%;
+	padding: 20px;
 }
-#menuButton1:hover {
-	background-color:#bf360c;
-}
-#menuButton1:active {
-	position:relative;
-	top:1px;
+
+body > div > aside {
+	order: 4;
+	flex: 0 1 10%;
 }

@@ -1,0 +1,115 @@
+body {
+	font-family: 'Play', sans-serif;
+	margin: 0px auto;
+	background: #FBE9E7;
+	background-position: center center;
+	position: center center;
+	text-align: center;
+}
+
+body > div {
+	display: flex;
+	flex-flow: row wrap;
+	min-width: 480px;
+}
+
+#topbar {
+	background: #F50057;
+	font-family: 'Press Start 2P', cursive;
+	height: 100px;
+	font-size: 100px;
+	border-style: inset;
+	border-width: 0px 0px 1px 0px;
+	border-color: #9E9E9E;
+	text-transform: uppercase;
+} 
+
+#topbar > a {
+	text-align: center;
+	font-size: 30px;
+	color: #FFFFFF;
+	transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+
+#topbar > a:hover {
+	background-color: #616161;
+	color: #FFFF00;
+	text-decoration: none;
+	transition: background 0.4s linear 0s, color 0.4s linear 0s;
+}
+
+#topbar > a:active {
+	background-color: white;
+	color: white;
+	transition: background 0.s linera 0s, color 0.2s linear 0s; 
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+	background-color: #db923a;
+	text-decoration: none;
+}
+
+/*#menuButton1 { 
+	float:left; 
+	margin:15px 0px 0px 20px; 
+	padding: 10px;
+	background-color: none;
+}*/
+
+#menu {
+	position: absolute;
+	left: 0px;
+	background: #FF8A65;
+	width: 140px;
+	height: 100%;
+	padding: 5px 5px 5px;
+	transform-origin: 0% 0%;
+	transform: perspective(0px) rotateY(90deg);
+	transition: transform .3s linear 0s;
+	box-shadow: 20px 10px 20px #FFCCBC;
+	border-style: groove;
+	border-width: 0px 1px 0px 0px;
+	border-color: #FFCCBC; 
+}
+
+#menu > a {
+	display: block;
+	text-decoration: none;
+	color: #FBE9E7;
+	font-size: auto;
+	transition: background 0.2s linear 0s, color 0.2s linear 0s;
+}
+#menu > a:hover { 
+	background:#888;
+	color:#FFF;
+}
+
+#menuButton1 {
+	background-color:#e64919;
+	-moz-border-radius:38px;
+	-webkit-border-radius:38px;
+	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:31px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #161066;
+	float: middle;
+	border-width: 1px 1px 1px 1px;
+}
+#menuButton1:hover {
+	background-color:#bf360c;
+}
+#menuButton1:active {
+	position:relative;
+	top:1px;
+}
