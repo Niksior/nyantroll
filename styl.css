@@ -141,10 +141,35 @@ body > div > header {
 	text-transform: uppercase;
 	position: fixed;
 	width: 100%;
+	color: #FFFFFF;
 	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
 } 
 
+#tooBar {
+	background: #ff0032;
+	font-family: 'Press Start 2P', cursive;
+	height: 30px;
+	padding: 15px;
+	font-size: 20px;
+	border-style: inset;
+	border-width: 0px 0px 1px 0px;
+	border-color: #9E9E9E;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	top: 150px;
+	transition: padding 0.3s linear 0s, top 0.3s linear 0s;
+}
+
 body > div > header > a {
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: color 0.4s linear 0s;
+	letter-spacing: -1px;
+}
+
+#tooBar > a {
 	text-align: center;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -158,7 +183,19 @@ body > div > header > a:hover {
 	transition: color 0.4s linear 0s;
 }
 
+#tooBar > a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	transition: color 0.4s linear 0s;
+}
+
 body > div > header > a:active {
+	color: white;
+	transition: color 0.2s linear 0s; 
+	text-decoration: none;
+}
+
+#tooBar > a:active {
 	color: white;
 	transition: color 0.2s linear 0s; 
 	text-decoration: none;

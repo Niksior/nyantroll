@@ -1,15 +1,22 @@
-var pgTop, yPos;
+var pgTop, yPos, tB;
 
 function yScroll(){
 	pgTop = document.getElementById('pgTop');
 	yPos = window.pageYOffset;
+	tB = document.getElementById('tooBar');
 	
 	if(yPos > 150){
-		pgTop.style.height = "50px";
-		pgTop.style.padding = "8px";
+		pgTop.style.height = "0px";
+		pgTop.style.padding = "0px";
+		tB.style.top = "0px";
+		tB.style.padding = "5px";
+		tB.style.height = "20px";
 	} else {
 		pgTop.style.height = "100px";
 		pgTop.style.padding = "30px";
+		tB.style.top = "150px";
+		tB.style.padding = "15px";
+		tB.style.height = "30px";
 	}
 }
 
