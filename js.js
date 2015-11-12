@@ -13,31 +13,3 @@ WebFontConfig = {
     s.parentNode.insertBefore(wf, s);
 })();
 
-var pgTop, yPos;
-
-function yScroll(){
-	pgTop = document.getElementById('pgTop');
-	yPos = window.pageYOffset;
-	
-	if(yPos > 150){
-		pgTop.style.height = "50px";
-		pgTop.style.padding = "8px";
-	} else {
-		pgTop.style.height = "100px";
-		pgTop.style.padding = "30px";
-	}
-}
-
-window.addEventListener("scroll", yScroll);
-
-var i=0;
-var run;
-
-function nyanRun(){
-	run = document.getElementById('nyan');
-	console.log("kupa");
-	run.style.left = "80%";
-	run.style.transform = "rotateY(180deg)";
-} 
-
-	

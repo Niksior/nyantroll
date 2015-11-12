@@ -16,13 +16,13 @@ body {
 	padding: 0px;
 	position: fixed;
 	z-index: 0;
-	top: 15%;
-	left: -20%;
+	top: 10%;
+	left: -120%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-/*
+
 #nyan1 {
 	margin: 0px;
 	padding: 0px;
@@ -31,21 +31,10 @@ body {
 	top: 20%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan3 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 25%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan4 {
+#nyan2 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -53,21 +42,10 @@ body {
 	top: 30%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan5 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 35%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan6 {
+#nyan3 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -75,21 +53,10 @@ body {
 	top: 40%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan7 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 45%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan8 {
+#nyan4 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -97,21 +64,10 @@ body {
 	top: 50%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan9 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 55%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan10 {
+#nyan5 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -119,21 +75,10 @@ body {
 	top: 60%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan11 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 65%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan12 {
+#nyan6 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -141,21 +86,10 @@ body {
 	top: 70%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-#nyan13 {
-	margin: 0px;
-	padding: 0px;
-	position: fixed;
-	z-index: 0;
-	top: 75%;
-	left: -40%;
-	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
-	
-}
-#nyan14 {
+#nyan7 {
 	margin: 0px;
 	padding: 0px;
 	position: fixed;
@@ -163,10 +97,21 @@ body {
 	top: 80%;
 	left: -40%;
 	cursor: crosshair;
-	transition: left 2s linear 0s, transform 0s linear 2s;
+	transition: left 1s linear 0s;
 	
 }
-*/
+#nyan8 {
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	z-index: 0;
+	top: 90%;
+	left: -40%;
+	cursor: crosshair;
+	transition: left 1s linear 0s;
+	
+}
+
 body > div {
 	margin: 0px;
 	display: flex;
