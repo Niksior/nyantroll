@@ -125,9 +125,15 @@ function nyanRun8(){
 		}, 1000);
 }  
 
+function nyanSound(){
+	vid = document.getElementById('nyanM');
+	vid.play();
+	vid.loop = true;
+}
 
 function nya()
 {
+setTimeout(nyanSound,1000);
 setInterval(nyanRun,2000);
 setInterval(nyanRun1,2200);
 setInterval(nyanRun2,2400);
