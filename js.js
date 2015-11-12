@@ -30,15 +30,14 @@ function yScroll(){
 
 window.addEventListener("scroll", yScroll);
 
-var kot=1;
+var i=0;
+var run;
 
 function nyanRun(){
 	run = document.getElementById('nyan');
-	if(kot==1) {
-		run.style.left = "90%";
-		run.style.transform = "rotate(-180deg)";
-	}
-	else {
-		run.style.left = "90%";
-	}
+	console.log("kupa");
+	run.style.left = "80%";
+	run.style.transform = "rotateY(180deg)";
 } 
+
+	
