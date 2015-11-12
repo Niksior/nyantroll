@@ -20,7 +20,7 @@ function yScroll(){
 	yPos = window.pageYOffset;
 	
 	if(yPos > 150){
-		pgTop.style.height = "36px";
+		pgTop.style.height = "50px";
 		pgTop.style.padding = "8px";
 	} else {
 		pgTop.style.height = "100px";
@@ -29,3 +29,16 @@ function yScroll(){
 }
 
 window.addEventListener("scroll", yScroll);
+
+var kot=1;
+
+function nyanRun(){
+	run = document.getElementById('nyan');
+	if(kot==1) {
+		run.style.left = "90%";
+		run.style.transform = "rotate(-180deg)";
+	}
+	else {
+		run.style.left = "90%";
+	}
+} 

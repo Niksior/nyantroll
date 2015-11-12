@@ -11,6 +11,18 @@ body {
     background-attachment: fixed;
 }
 
+#nyan {
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	z-index: 0;
+	top: 15%;
+	left: 0%;
+	cursor: crosshair;
+	transition: left 2s linear 0s, transform 0s linear 2s;
+	
+}
+
 body > div {
 	margin: 0px;
 	display: flex;
