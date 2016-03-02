@@ -1,7 +1,7 @@
-if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
+/*if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
 	alert("Zmien przegladarke na:\nChrome 47-\nOpera12+\nEdge\nIE11+\nGdyz strona moze zle dzialac");
 }
-
+*/
 WebFontConfig = {
     google: { families: [ 'Press+Start+2P::latin-ext', 'Play::latin-ext' ] } };
   (function() {
